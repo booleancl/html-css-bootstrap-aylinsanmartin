@@ -65,4 +65,87 @@ Algo que es muy muy muy importante notar y que no es tan evidente, es que los do
 
 Esto es muy importante de comprender ya que luego manejaremos las etiquetas pensando en su ubicación relativa dentro del árbol. Y pensaremos que las etiquetas son **nodos** que tienen **nodos padre**, **hermanos** y **nodos hijos**
 
+## Etiquetas principales
+
+### Tìtulos
+
+Las etiquetas para hacer tìtulos son las etiquetas **h** con nùmeros del 1 al 6. Ejemplos
+
 ```html
+<h1>Sùper tìtulo</h1>
+ <h2>Super sub titulo</h2>   
+ <h3>Supr sub sub titulo</h3>
+<h4>....</h4>
+<h5>...</h5>
+<h6>..</h6>
+```
+
+### Links
+
+Los links son el corazòn de internet y los crearemos frecuentemente. Se componen de el atributo `href` que indica el destino del link y su contenido, que es lo que se muestra al usuario
+```html
+ <a href="headings.   html">Tìtulos</a>
+ ```
+
+ ### Imagenes
+
+ Las imàgenes son una 
+
+
+
+
+
+
+
+
+
+
+
+### Etiquetas no semanticas
+
+Estas etiquetas no tiene un significado propio y sirven como contenedor para agrupar otras etiquetas 
+
+## div
+
+```html
+<div>
+  <p>Hola mundo</p>
+</div>
+
+```
+
+## spam
+
+La etiqueta span se puede usar dentro de un texto.
+
+```html
+<div>
+  <p>Hola<span>mundo</span></p>
+</div>
+```
+
+La idea detras de los elementos no sematicos es utilizar css para darles estilo.
+
+Mas adelante, en este modulo veremos lo frecuente de su uso el marco de trabajo o framework Bootstrap.
+
+## Formacion 
+
+Contiene controles interactivos para ingresar informacion
+
+```html
+<form action="/searc" method="get">
+```
+</form>
+``` 
+
+Cuando enviamos el formulario mediante el metodo "get", los parametros ingresados 
+
+
+
+
+
+
+
+
+
+
