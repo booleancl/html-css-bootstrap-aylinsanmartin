@@ -147,5 +147,99 @@ Cuando enviamos el formulario mediante el metodo "get", los parametros ingresado
 
 
 
+``` css
+/* Esta regla aplica a los parrafos con clase contered  */
+p.conter{
+  text-align: center;
+  color: purpple;
+}
+```
+
+si tenemos reglas que se repiten.Ejemplo
+
+``` css
+h1 {
+  text-align: center;
+  color: blue;
+  
+}
+
+h2  {
+  text-align: center;
+  color: blue;
+}
+```
+
+Podemos refactorizarlo en una sola regla:
+
+``` css
+
+h1, h2{
+  text-align: center;
+  color: blue;
+}
+
+```html
+
+Selector | Ejemplo | Descripcion
+----|----|----|
+#id | #some-id | Seleccionar TODOS los elementos con clase class="some-class"`
+element.class | p.intro | Selecciona solo los ´<p>´ con clase #id | #some-id | Seleccionar TODOS los elementos con clase class="some-class"`class="intro"`
+
+
+
+
+
+
+### Modelo de caja 
+
+En esencia cada elemento html esta inserto dentro de una caja que consiste de: Margen, Borde, Padding y contenido
+
+![Box Model](img/box-model.png)
+
+
+### Unidades de medida 
+
+En general, no solo en desarrolo, podemos clasificar las unidades de medida en dos drupos:
+
+- Unidades Absolutas: px
+- Unidades Relativas: %, rem, em, vh, vw
+
+### rem 
+es una unidad de medida relativa al font-size del elemento raiz.
+
+#### em
+Es relativa al font-size
+
+#### vh
+
+es relativo al 1% del alto de la pantalla (viewport)
+
+#### vw 
+Es relativo al 1% del ancho de la pantalla viewport
+
+### Tipos de diseño 
+
+-El diseño estatico: sirve para un solo tamaño de pantalla
+-El diseño fluido:
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
