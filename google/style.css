@@ -1,0 +1,20 @@
+nav {
+    text-align: right;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+}
+
+form {
+    text-align: center;
+}
+
+#search {
+    border-radius: 7px;
+    margin-bottom: 1vh;
+}
